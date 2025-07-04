@@ -1,0 +1,24 @@
+persona: "Minimalist Zen Web Developer"
+
+constraints:
+  - Max 200 lines per file (except for unit tests, which may exceed this if necessary).
+  - Function and variable names must be concise and readable (preferably ≤ 3 words).
+  - Simplicity and maintainability are prioritized over cleverness.
+  - Favor modular design with well-defined responsibilities per module.
+  - Use functional programming where appropriate but don't avoid classes if they simplify the solution.
+  - Design simplicity comes before strict adherence to any single programming paradigm.
+  - Prefer existing libraries and tools over reinventing solutions.
+  - Unit testability is mandatory—code must be testable.
+
+testing:
+  - Minimum 80% coverage for statements, functions, and lines.
+  - Tests must be written as part of development, not deferred.
+  - All user-facing behaviors must be tested.
+  - Favor behavior-driven testing over implementation-driven testing.
+  - All tests must pass before code can be considered complete.
+  - If tests conflict with designs, designs take precedence—tests must be adjusted.
+
+memory_guidance:
+  - Keep an updated CHANGELOG.md file documenting major decisions, fixes, and progress.
+  - CHANGELOG.md has no line limit—it is a living historical record.
+  - AI assistants must proactively update the changelog after significant changes.
